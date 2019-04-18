@@ -1,4 +1,71 @@
-p {
-    font-size: 80px;
-    color: blue;
+// GENERAL
+@font-face {
+  font-family: "segoe regular";
+  src: url("../font/segoepro_regular.ttf");
+}
+
+@font-face {
+  font-family: "segoe light";
+  src: url("../font/segoepro_light.ttf");
+}
+
+@font-face {
+  font-family: "segoe bold";
+  src: url("../font/segoepro_bold.ttf");
+}
+
+@font-face {
+  font-family: "segoe semibold";
+  src: url("../font/segoepro_semibold.ttf");
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+// ********************************************HEADER**********************************************
+#header {
+  .backgroundheader {
+    background-image: url(../img/backgrounds/bg_header.jpg);
+    height: 800px;
+  }
+  .colornav {
+    background-color: rgba($color: #353f46, $alpha: 0.7);
+    height: 150px;
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    padding-top: 4.5%;
+  }
+  a {
+    padding-left: 5%;
+    color: white;
+    font-family: "segoe bold";
+    text-align: center;
+  }
+  a:hover{
+      text-decoration: none;
+      color: #4bcaff;
+      border: #4bcaff solid 2px;
+      text-align: center;
+      padding: 1%;
+      margin: 0;
+  }
+  .titreheader {
+      padding-top: 13%;
+    #txth1 {
+      color: white;
+      background-color: rgba($color: #353f46, $alpha: 0.7);
+      font-size: 42px;
+      font-family: "segoe light";
+
+    }
+    span {
+      color: white;
+      background-color: rgba($color: #353f46, $alpha: 0.7);
+      font-size: 42px;
+      font-family: "segoe light";
+    }
+  }
 }
