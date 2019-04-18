@@ -23,7 +23,7 @@
   padding: 0;
   margin: 0; }
 #header nav {
-  padding-top: 4.5%; }
+  padding-top: 4%; }
 #header a {
   padding-left: 5%;
   color: white;
@@ -48,5 +48,30 @@
     background-color: rgba(53, 63, 70, 0.7);
     font-size: 42px;
     font-family: "segoe light"; }
+
+#services {
+  background-color: #4bcaff;
+  height: 400px;
+  padding-top: 10%; }
+  #services img {
+    padding-bottom: 7%; }
+  #services .titreservice {
+    color: white;
+    font-family: "segoe semibold";
+    font-size: 24px; }
+  #services p {
+    color: white;
+    font-family: "segoe semibold";
+    font-size: 14px; }
+
+#features {
+  height: 843px; }
+  #features #titrefeatures {
+    color: #4bcaff;
+    border-bottom: #353f46 2px;
+    font-family: "segoe light"; }
+  #features .navfeatures {
+    padding: 0;
+    margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -36,7 +36,7 @@
     margin: 0;
   }
   nav {
-    padding-top: 4.5%;
+    padding-top: 4%;
   }
   a {
     padding-left: 5%;
@@ -44,22 +44,21 @@
     font-family: "segoe bold";
     text-align: center;
   }
-  a:hover{
-      text-decoration: none;
-      color: #4bcaff;
-      border: #4bcaff solid 2px;
-      text-align: center;
-      padding: 1%;
-      margin: 0;
+  a:hover {
+    text-decoration: none;
+    color: #4bcaff;
+    border: #4bcaff solid 2px;
+    text-align: center;
+    padding: 1%;
+    margin: 0;
   }
   .titreheader {
-      padding-top: 13%;
+    padding-top: 13%;
     #txth1 {
       color: white;
       background-color: rgba($color: #353f46, $alpha: 0.7);
       font-size: 42px;
       font-family: "segoe light";
-
     }
     span {
       color: white;
@@ -69,3 +68,38 @@
     }
   }
 }
+// *********************************SECTION 1 ** SERVICES *******************************
+
+#services {
+  background-color: #4bcaff;
+  height: 400px;
+  padding-top: 10%;
+  img {
+    padding-bottom: 7%;
+  }
+
+  .titreservice {
+    color: white;
+    font-family: "segoe semibold";
+    font-size: 24px;
+  }
+  p {
+    color: white;
+    font-family: "segoe semibold";
+    font-size: 14px;
+  }
+}
+// *********************************SECTION 2 ** FEATURES******************************
+#features {
+  height: 843px;
+    #titrefeatures {
+        color: #4bcaff;
+        border-bottom: #353f46 2px;
+        font-family: "segoe light";
+    }
+    .navfeatures {
+        padding: 0;
+        margin: 0;
+    }
+  }
+
