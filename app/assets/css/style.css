@@ -16,6 +16,8 @@
 
 #header .backgroundheader {
   background-image: url(../img/backgrounds/bg_header.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
   height: 800px; }
 #header .navbar {
   padding-top: 2%;
@@ -73,5 +75,72 @@
         justify-content: flex-end; }
   #features .photopart2 {
     padding-top: 1.5%; }
+
+#justdefault {
+  background-color: #515f67;
+  height: 478px; }
+  #justdefault h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 7%; }
+  #justdefault .text {
+    font-family: "segoe regular";
+    color: white;
+    padding-top: 3%;
+    font-size: 14px; }
+    #justdefault .text button {
+      font-family: "segoe bold"; }
+  #justdefault .video {
+    margin-bottom: 5%; }
+
+#twitter {
+  height: 302px;
+  background-color: #4bcaff; }
+  #twitter h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%; }
+  #twitter p {
+    font-family: "segoe light";
+    color: white;
+    padding-top: 2%;
+    font-size: 28px; }
+    #twitter p span {
+      font-family: "segoe semibold"; }
+
+#who {
+  height: 504px;
+  background-image: url(../img/backgrounds/bg_who_is.jpg);
+  background-position: cover;
+  background-repeat: no-repeat; }
+  #who h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%;
+    margin-left: 15px;
+    margin-bottom: 5%; }
+  #who p {
+    font-family: "segoe regular";
+    color: white;
+    font-size: 14px; }
+
+#testimonials {
+  height: 360px; }
+  #testimonials h2 {
+    font-family: "segoe light";
+    color: #515f67;
+    border-bottom: #515f67 solid 2px;
+    padding-top: 6%; }
+  #testimonials p {
+    font-family: "segoe light";
+    color: #515f67;
+    padding-top: 2%;
+    font-size: 28px; }
+  #testimonials span {
+    font-family: "segoe bold";
+    color: #4bcaff; }
 
 /*# sourceMappingURL=style.css.map */

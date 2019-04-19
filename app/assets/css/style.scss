@@ -27,6 +27,8 @@
 #header {
   .backgroundheader {
     background-image: url(../img/backgrounds/bg_header.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
     height: 800px;
   }
   .navbar {
@@ -86,7 +88,7 @@
     font-size: 14px;
   }
 }
-// *********************************SECTION 2 ** FEATURES******************************
+// *********************************SECTION 2 portfolio******************************
 #features {
   height: 843px;
   padding-top: 5%;
@@ -108,7 +110,92 @@
       }
     }
   }
-  .photopart2{
+  .photopart2 {
     padding-top: 1.5%;
+  }
+}
+// ******************************SECTION 3 just default section********************************
+#justdefault {
+  background-color: #515f67;
+  height: 478px;
+  h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 7%;
+  }
+  .text {
+    font-family: "segoe regular";
+    color: white;
+    padding-top: 3%;
+    font-size: 14px;
+    button {
+      font-family: "segoe bold";
+    }
+  }
+  .video {
+    margin-bottom: 5%;
+  }
+}
+// ***********************************SECTION 4 twitter**************************
+#twitter {
+  height: 302px;
+  background-color: #4bcaff;
+  h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%;
+  }
+  p {
+    font-family: "segoe light";
+    color: white;
+    padding-top: 2%;
+    font-size: 28px;
+    span {
+      font-family: "segoe semibold";
+    }
+  }
+}
+// *********************************SECTION 5 who is john doe**********************
+#who {
+  height: 504px;
+  background-image: url(../img/backgrounds/bg_who_is.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%;
+    margin-left: 15px;
+    margin-bottom: 5%;
+  }
+
+  p {
+    font-family: "segoe regular";
+    color: white;
+    font-size: 14px;
+  }
+}
+
+// ***********************************SECTION 6 testimonials***********************
+#testimonials {
+  height: 360px;
+  h2 {
+    font-family: "segoe light";
+    color: #515f67;
+    border-bottom: #515f67 solid 2px;
+    padding-top: 6%;
+  }
+  p {
+    font-family: "segoe light";
+    color: #515f67;
+    padding-top: 2%;
+    font-size: 28px;
+  }
+  span {
+    font-family: "segoe bold";
+    color: #4bcaff;
   }
 }
