@@ -32,9 +32,8 @@
     height: 800px;
   }
   .navbar {
-    padding-top: 2%;
     height: 100px;
-    background-color: rgba($color: #353f46, $alpha: 0.7);
+    background-color: rgba($color: #353f46, $alpha: 0.85);
     .navbar-brand {
       color: white;
       font-family: "segoe bold";
@@ -197,5 +196,65 @@
   span {
     font-family: "segoe bold";
     color: #4bcaff;
+  }
+}
+// ************************************SECTION 7 contact*************************
+#contact {
+  height: 814px;
+  background-image: url(../img/backgrounds/bg_contact.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%;
+    margin-bottom: 3%;
+  }
+  label {
+    font-family: "segoe bold";
+    color: white;
+    font-size: 14px;
+  }
+  input {
+    background-color: transparent;
+    border: white solid 1px;
+    height: 59px;
+  }
+  .first_text{
+    padding-top: 4%;
+  }
+  p {
+    font-family: "segoe semibold";
+    font-size: 14px;
+    color: white;
+    margin-bottom: 1%;
+    
+  }
+  textarea {
+    background-color: transparent;
+    border: white solid 1px;
+    height: 217px;
+    margin-bottom: 3%;
+  }
+  .btn {
+    font-family: "segoe bold";
+    color: white;
+    font-size: 14px;
+    
+  }
+  .btn-primary {
+    background-color: #4bcaff;
+    border-color: transparent;
+  }
+  .btn-primary:hover {
+    background-color: transparent;
+    border-color: #515f67 solid 5px;
+  }
+  .btn:hover {
+    font-family: "segoe bold";
+    color:#515f67;
+    font-size: 14px;
+    border-color: #515f67 solid 5px;
   }
 }

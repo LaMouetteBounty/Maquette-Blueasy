@@ -20,9 +20,8 @@
   background-repeat: no-repeat;
   height: 800px; }
 #header .navbar {
-  padding-top: 2%;
   height: 100px;
-  background-color: rgba(53, 63, 70, 0.7); }
+  background-color: rgba(53, 63, 70, 0.85); }
   #header .navbar .navbar-brand {
     color: white;
     font-family: "segoe bold";
@@ -142,5 +141,52 @@
   #testimonials span {
     font-family: "segoe bold";
     color: #4bcaff; }
+
+#contact {
+  height: 814px;
+  background-image: url(../img/backgrounds/bg_contact.jpg);
+  background-position: cover;
+  background-repeat: no-repeat; }
+  #contact h2 {
+    font-family: "segoe light";
+    color: white;
+    border-bottom: white solid 2px;
+    padding-top: 6%;
+    margin-bottom: 3%; }
+  #contact label {
+    font-family: "segoe bold";
+    color: white;
+    font-size: 14px; }
+  #contact input {
+    background-color: transparent;
+    border: white solid 1px;
+    height: 59px; }
+  #contact .first_text {
+    padding-top: 4%; }
+  #contact p {
+    font-family: "segoe semibold";
+    font-size: 14px;
+    color: white;
+    margin-bottom: 1%; }
+  #contact textarea {
+    background-color: transparent;
+    border: white solid 1px;
+    height: 217px;
+    margin-bottom: 3%; }
+  #contact .btn {
+    font-family: "segoe bold";
+    color: white;
+    font-size: 14px; }
+  #contact .btn-primary {
+    background-color: #4bcaff;
+    border-color: transparent; }
+  #contact .btn-primary:hover {
+    background-color: transparent;
+    border-color: #515f67 solid 5px; }
+  #contact .btn:hover {
+    font-family: "segoe bold";
+    color: #515f67;
+    font-size: 14px;
+    border-color: #515f67 solid 5px; }
 
 /*# sourceMappingURL=style.css.map */
