@@ -31,50 +31,52 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>BLUEASY</title>
 </head>
 
 <body>
     <!-- ***********************nav bootstrap***************************** -->
     <header id="header">
         <div class="container-fluid backgroundheader">
+            <div class="container-fluid" id="positionf">
+                <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">BLU<span>E</span>ASY</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <a class="navbar-brand" href="#">BLU<span>E</span>ASY</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">FEATURES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">PORTFOLIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
-                            </li>
-                        </ul>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav nav-pills ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#header">HOME <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scroolservices">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scroolportfolio">FEATURES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scroolfeatures">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scroolcontact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
                     </div>
-
-                </div>
-            </nav>
-            <div class="text-center titreheader">
-                <span id="txth1">“I’M LOOKING FOR THE UNEXPECTED</span><br>
-                <span>I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE.” </span>
+                </nav>
             </div>
-        </div>
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <div class="text-center titreheader">
+                    <span id="txth1">“I’M LOOKING FOR THE UNEXPECTED</span><br>
+                    <span>I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE.” </span>
+                </div>
+            
         </div>
     </header>
     <!-- ******************************************SECTION 1***SERVICES***************************************** -->
@@ -82,10 +84,11 @@
         <div class="container">
             <div class="row">
                 <div class="bordertitle">
-                <h2>SERVICES</h2>
-                <div class="underline"></div></div>
+                    <h2 id="scroolservices">SERVICES</h2>
+                    <div class="underline"></div>
+                </div>
             </div>
-            
+
             <div class="row">
 
                 <div class="col-3 contenue">
@@ -121,10 +124,11 @@
     <!-- ******************************************SECTION 2 portfolio**************************  -->
     <section id="features" class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light">
-<div class="bordertitle">
-                <a class="navbar-brand" href="#">PORTFOLIO</a>
-                <div class="underline"></div></div>
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+                <div class="bordertitle">
+                    <a class="navbar-brand" id="scroolportfolio" href="#">PORTFOLIO</a>
+                    <div class="underline"></div>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -132,7 +136,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">ALL<span class="sr-only">(current)</span></a>
                         </li>
@@ -190,9 +194,9 @@
         <div class="container">
             <div class="row">
                 <div class="bordertitle">
-                <h2>JUST DEFAULT SECTION</h2>
-                <div class="underline"></div>
-            </div>
+                    <h2 id="scroolfeatures">JUST DEFAULT SECTION</h2>
+                    <div class="underline"></div>
+                </div>
                 <div class="row">
                     <div class="col-5 text">
                         <p>
@@ -213,7 +217,8 @@
                     </div>
                     <div class="offset-1 col-6 video">
                         <!-- INTEGRATION VIDEO  -->
-                        <img src="assets/img/video.jpg">
+                        <embed src="https://player.vimeo.com/video/84488961" width="560" height="313">
+                        <!-- <img src="assets/img/video.jpg"> -->
                     </div>
                 </div>
             </div>
@@ -226,9 +231,9 @@
         <div class="container">
             <div class="row">
                 <div class="bordertitle">
-                <h2>TWITTER</h2>
-                <div class="underline"></div>
-            </div>
+                    <h2>TWITTER</h2>
+                    <div class="underline"></div>
+                </div>
             </div>
             <div class="row">
                 <p>
@@ -245,9 +250,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 bordertitle">
-                <h2>WHO IS JOHN DOE ?</h2>
-                <div class="underline"></div>
-            </div></div>
+                    <h2>WHO IS JOHN DOE ?</h2>
+                    <div class="underline"></div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-6">
                     <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears
@@ -270,8 +276,10 @@
         <div class="container">
             <div class="row">
                 <div class="bordertitle">
-                <h2>TESTIMONIALS</h2><div class="underline"></div>
-            </div></div>
+                    <h2>TESTIMONIALS</h2>
+                    <div class="underline"></div>
+                </div>
+            </div>
             <div class="row">
                 <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake
                     jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
@@ -286,8 +294,10 @@
         <div class="container">
             <div class="row">
                 <div class="bordertitle">
-                <h2>CONTACT</h2><div class="underline"></div>
-            </div></div>
+                    <h2 id="scroolcontact">CONTACT</h2>
+                    <div class="underline"></div>
+                </div>
+            </div>
 
             <!-- *****************FORMULAIRE PARTIE 1**************************** -->
             <form>
@@ -349,7 +359,8 @@
                 </div>
             </div>
         </div>
-
+        </div>
+        
     </footer>
     <!-- ****************************************************************************** -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

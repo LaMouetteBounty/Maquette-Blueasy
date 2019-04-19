@@ -31,22 +31,31 @@
     background-repeat: no-repeat;
     height: 800px;
   }
-  .navbar {
-    height: 100px;
-    background-color: rgba($color: #353f46, $alpha: 0.85);
-    .navbar-brand {
-      color: white;
-      font-family: "segoe bold";
-      font-size: 30px;
-      span {
-        color: #4bcaff;
+  #positionf {
+    position: fixed;
+    z-index: 100000;
+
+    .navbar {
+      height: 100px;
+      background-color: rgba($color: #353f46, $alpha: 0.85);
+
+      .navbar-brand {
+        color: white;
+        font-family: "segoe bold";
+        font-size: 30px;
+        span {
+          color: #4bcaff;
+          font-family: "segoe bold";
+        }
+      }
+      .nav-link {
+        color: white;
+        font-size: 14px;
         font-family: "segoe bold";
       }
-    }
-    .nav-link {
-      color: white;
-      font-size: 14px;
-      font-family: "segoe bold";
+      .nav-link:hover {
+        color: #4bcaff;
+      }
     }
   }
 
@@ -76,7 +85,7 @@
     display: flex;
     flex-direction: column;
   }
-  h2 {
+  #scroolservices {
     font-family: "segoe light";
     color: white;
   }
@@ -105,7 +114,7 @@
 // *********************************SECTION 2 portfolio******************************
 #features {
   height: 843px;
-  padding-top: 5%;
+  padding-top: 0;
   nav {
     padding-bottom: 5%;
     .bordertitle {
@@ -120,10 +129,11 @@
     .navbar-brand {
       font-family: "segoe light";
       color: #515f67;
-
-      .navbar-nav {
-        justify-content: flex-end;
-      }
+      font-size: 30px;
+    }
+    .navbar-nav {
+      padding-left: 60%;
+      padding-top: 5%;
     }
   }
   .photopart2 {
@@ -171,15 +181,15 @@
     color: white;
     padding-top: 6%;
   }
- .underline {
-  border: white solid 0.5px;
-  width: 35%;
-}
-.bordertitle {
-  margin-top: 4%;
-  display: flex;
-  flex-direction: column;
-}
+  .underline {
+    border: white solid 0.5px;
+    width: 35%;
+  }
+  .bordertitle {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
   p {
     font-family: "segoe light";
     color: white;
@@ -196,22 +206,23 @@
   background-image: url(../img/backgrounds/bg_who_is.jpg);
   background-position: cover;
   background-repeat: no-repeat;
-   .bordertitle {
-    margin-top: 4%;
+  .bordertitle {
+    margin-top: 6%;
     display: flex;
     flex-direction: column;
-   
-  h2 {
-    font-family: "segoe light";
-    color: white;
-    padding-top: 6%;
-  } 
 
-  .underline {
-    border: white solid 0.5px;
-    width: 44px;
-    margin-bottom: 5%;
-  }} 
+    h2 {
+      font-family: "segoe light";
+      color: white;
+      padding-top: 6%;
+    }
+
+    .underline {
+      border: white solid 0.5px;
+      width: 44px;
+      margin-bottom: 10%;
+    }
+  }
 
   p {
     font-family: "segoe regular";
@@ -227,17 +238,17 @@
     margin-top: 4%;
     display: flex;
     flex-direction: column;
-  h2 {
-    font-family: "segoe light";
-    color: #515f67;
-    padding-top: 6%;
+    h2 {
+      font-family: "segoe light";
+      color: #515f67;
+      padding-top: 6%;
+    }
+    .underline {
+      border: #515f67 solid 0.5px;
+      width: 44px;
+      margin-bottom: 5%;
+    }
   }
-  .underline {
-    border: #515f67 solid 0.5px;
-    width: 44px;
-    margin-bottom: 5%;
-  }
-}
   p {
     font-family: "segoe light";
     color: #515f67;
@@ -260,18 +271,16 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 4%;
-  h2 {
-    font-family: "segoe light";
-    color: white;
-    padding-top: 6%;
-    
+    h2 {
+      font-family: "segoe light";
+      color: white;
+      padding-top: 6%;
+    }
+    .underline {
+      border: white solid 0.5px;
+      width: 44px;
+    }
   }
-  .underline {
-    border: white solid 0.5px;
-    width: 44px;
-    
-  }
-}
   label {
     font-family: "segoe bold";
     color: white;
@@ -348,4 +357,24 @@
       color: white;
     }
   }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }

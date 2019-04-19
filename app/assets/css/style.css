@@ -19,20 +19,25 @@
   background-position: cover;
   background-repeat: no-repeat;
   height: 800px; }
-#header .navbar {
-  height: 100px;
-  background-color: rgba(53, 63, 70, 0.85); }
-  #header .navbar .navbar-brand {
-    color: white;
-    font-family: "segoe bold";
-    font-size: 30px; }
-    #header .navbar .navbar-brand span {
-      color: #4bcaff;
+#header #positionf {
+  position: fixed;
+  z-index: 100000; }
+  #header #positionf .navbar {
+    height: 100px;
+    background-color: rgba(53, 63, 70, 0.85); }
+    #header #positionf .navbar .navbar-brand {
+      color: white;
+      font-family: "segoe bold";
+      font-size: 30px; }
+      #header #positionf .navbar .navbar-brand span {
+        color: #4bcaff;
+        font-family: "segoe bold"; }
+    #header #positionf .navbar .nav-link {
+      color: white;
+      font-size: 14px;
       font-family: "segoe bold"; }
-  #header .navbar .nav-link {
-    color: white;
-    font-size: 14px;
-    font-family: "segoe bold"; }
+    #header #positionf .navbar .nav-link:hover {
+      color: #4bcaff; }
 #header .titreheader {
   padding-top: 13%; }
   #header .titreheader #txth1 {
@@ -53,7 +58,7 @@
     margin-top: 4%;
     display: flex;
     flex-direction: column; }
-  #services h2 {
+  #services #scroolservices {
     font-family: "segoe light";
     color: white; }
   #services .underline {
@@ -74,7 +79,7 @@
 
 #features {
   height: 843px;
-  padding-top: 5%; }
+  padding-top: 0; }
   #features nav {
     padding-bottom: 5%; }
     #features nav .bordertitle {
@@ -86,9 +91,11 @@
       width: 44px; }
     #features nav .navbar-brand {
       font-family: "segoe light";
-      color: #515f67; }
-      #features nav .navbar-brand .navbar-nav {
-        justify-content: flex-end; }
+      color: #515f67;
+      font-size: 30px; }
+    #features nav .navbar-nav {
+      padding-left: 60%;
+      padding-top: 5%; }
   #features .photopart2 {
     padding-top: 1.5%; }
 
@@ -144,7 +151,7 @@
   background-position: cover;
   background-repeat: no-repeat; }
   #who .bordertitle {
-    margin-top: 4%;
+    margin-top: 6%;
     display: flex;
     flex-direction: column; }
     #who .bordertitle h2 {
@@ -154,7 +161,7 @@
     #who .bordertitle .underline {
       border: white solid 0.5px;
       width: 44px;
-      margin-bottom: 5%; }
+      margin-bottom: 10%; }
   #who p {
     font-family: "segoe regular";
     color: white;
