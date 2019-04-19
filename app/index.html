@@ -35,30 +35,46 @@
 </head>
 
 <body>
+    <!-- ***********************nav bootstrap***************************** -->
     <header id="header">
         <div class="container-fluid backgroundheader">
-            <div class="container-fluid colornav">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                        <img class="navbar-brand" id="logo" src="assets/img/logo_blueasy.png"
-                            alt="logo restaurant lambda">
-                        <div class="col-6">
-                            <a href="#header">HOME</a>
-                            <a href="#services">SERVICES</a>
-                            <a href="#features">FEATURES</a>
-                            <a href="#portfolio">PORTFOLIO</a>
-                            <a href="#contact">CONTACT</a>
-                        </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">BLU<span>E</span>ASY</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FEATURES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
-            <!-- **********************titre header******************* -->
-            <div class="container titreheader">
-                <div class="text-center">
-                    <span id="txth1">“I’M LOOKING FOR THE UNEXPECTED</span><br>
-                    <span>I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE.” </span>
+
                 </div>
+            </nav>
+            <div class="text-center titreheader">
+                <span id="txth1">“I’M LOOKING FOR THE UNEXPECTED</span><br>
+                <span>I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE.” </span>
             </div>
+        </div>
         </div>
     </header>
     <!-- ******************************************SECTION 1***SERVICES***************************************** -->
@@ -99,16 +115,69 @@
     <!-- ******************************************SECTION 2 *FEATURES**************************  -->
     <section id="features" class="container">
         <div class="row">
-                <h2 id="titrefeatures">PORTFOLIO</h2>
-            <div class="navfeatures">
-                <a href="#">ALL</a>
-                <a href="#">PANORAMAS</a>
-                <a href="#">PORTRAITS</a>
-                <a href="#o">MACRO</a>
-                <a href="#">JOURNAL</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <a class="navbar-brand" href="#">PORTFOLIO</a>
+                <div class="underline"></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">ALL<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PANORAMAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PORTRAITS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MACRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">JOURNAL</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <img src="assets/img/portfolio/little/pf_01_road.jpg" alt="photo d'une route sur l'eau">
             </div>
-        
-    </div>
+            <div class="col-3">
+                <img src="assets/img/portfolio/little/pf_02_pont.jpg" alt="photo d'un pont">
+            </div>
+            <div class="col-3">
+                <img src="assets/img/portfolio/little/pf_03_mer.jpg" alt="photo de la mer">
+            </div>
+            <div class="col-3">
+                <img src="assets/img/portfolio/little/pf_04_mer.jpg" alt="photo d'un lac">
+            </div>
+        </div>
+        <div class="photopart2">
+            <div class="row">
+            
+                <div class="col-3">
+                    <img src="assets/img/portfolio/little/pf_05_chalet.jpg" alt="photo d'un chalet">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/portfolio/little/pf_06_surf.jpg" alt="photo d'un surfer">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/portfolio/little/pf_07_montagne.jpg" alt="photo d'une montagne'">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/portfolio/little/pf_08_montagne.jpg" alt="photo d'une montagne">
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>
 

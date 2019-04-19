@@ -17,25 +17,21 @@
 #header .backgroundheader {
   background-image: url(../img/backgrounds/bg_header.jpg);
   height: 800px; }
-#header .colornav {
-  background-color: rgba(53, 63, 70, 0.7);
-  height: 150px;
-  padding: 0;
-  margin: 0; }
-#header nav {
-  padding-top: 4%; }
-#header a {
-  padding-left: 5%;
-  color: white;
-  font-family: "segoe bold";
-  text-align: center; }
-#header a:hover {
-  text-decoration: none;
-  color: #4bcaff;
-  border: #4bcaff solid 2px;
-  text-align: center;
-  padding: 1%;
-  margin: 0; }
+#header .navbar {
+  padding-top: 2%;
+  height: 100px;
+  background-color: rgba(53, 63, 70, 0.7); }
+  #header .navbar .navbar-brand {
+    color: white;
+    font-family: "segoe bold";
+    font-size: 30px; }
+    #header .navbar .navbar-brand span {
+      color: #4bcaff;
+      font-family: "segoe bold"; }
+  #header .navbar .nav-link {
+    color: white;
+    font-size: 14px;
+    font-family: "segoe bold"; }
 #header .titreheader {
   padding-top: 13%; }
   #header .titreheader #txth1 {
@@ -52,7 +48,7 @@
 #services {
   background-color: #4bcaff;
   height: 400px;
-  padding-top: 10%; }
+  padding-top: 8%; }
   #services img {
     padding-bottom: 7%; }
   #services .titreservice {
@@ -65,13 +61,17 @@
     font-size: 14px; }
 
 #features {
-  height: 843px; }
-  #features #titrefeatures {
-    color: #4bcaff;
-    border-bottom: #353f46 2px;
-    font-family: "segoe light"; }
-  #features .navfeatures {
-    padding: 0;
-    margin: 0; }
+  height: 843px;
+  padding-top: 5%; }
+  #features nav {
+    padding-bottom: 5%; }
+    #features nav .navbar-brand {
+      font-family: "segoe light";
+      color: #515f67;
+      border-bottom: #353f46 solid 2px; }
+      #features nav .navbar-brand .navbar-nav {
+        justify-content: flex-end; }
+  #features .photopart2 {
+    padding-top: 1.5%; }
 
 /*# sourceMappingURL=style.css.map */
