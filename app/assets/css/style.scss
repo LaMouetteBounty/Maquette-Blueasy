@@ -359,22 +359,117 @@
   }
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
 }
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  #titreheader {
+    padding-top: 50%;
+    #txth1 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 22px;
+    }
+  }
+
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media screen and (max-width: 575.98px) {
+#header {
+  #titreheader {
+    margin-top: 50%;
+    #txth1 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 22px;
+    }
+  }
+}
+  // **************SECTION SERVICES
+#services {
+  padding-left: 10%;
+  height: 1150px;
+  .underline {
+    margin-bottom: 10%;
+  }
+  .contenue {
+    padding-top: 10%;
+  }
+}
+
+// ***************SECTION PORTFOLIO
+#features {
+  height: 2500px;
+.imgportfolio {
+display: flex;
+justify-content: center;
+
+  img {
+    padding-top: 5%;
+    
+  }
+}
+}
+// ***************SECTION JUST DEFAULT
+#justdefault {
+  padding-left: 10%;
+  height: 600px;
+  .video {
+    height: 50px;
+    margin: 0;
+    padding-right: 10%;
+    // display: flex;
+    // justify-content: center;
+}
+} 
+// body{
+// .vp-center {
+//     display: flex;
+//   }
+// }
+// ****************SECTION TWITTER
+#twitter {
+padding-left: 10%;
+}
+// ***************SECTION WHO IS JOHN DOE
+#who {
+  height: 480px ;
+}
+// ***************SECTION TESTIMONIALS
+#testimonials {
+  padding-left: 10%;
+  height: 420px;
+}
+// ****************SECTION CONTACT
+#contact {
+  textarea {
+    height: 150px;
+  }
+}
+// ****************CONTACT
+#footer {
+  height: 100px;
+  // a {
+  //   font-size: 20px;
+  // }
+}
+}
+
+
+
