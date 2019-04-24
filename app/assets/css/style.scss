@@ -189,6 +189,8 @@
   padding-top: 0;
 
 .column {
+  float: left;
+  width: 33.33%;
   display: none;
 }
 
@@ -454,6 +456,9 @@
     height: 217px;
     margin-bottom: 3%;
   }
+  #erreur {
+    color: red;
+  }
   .btn {
     font-family: "segoe bold";
     color: white;
@@ -475,6 +480,7 @@
     border-color: #515f67 solid 5px;
   }
 }
+
 // *************************************************FOOTER**************************************
 #footer {
   height: 170px;

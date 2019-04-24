@@ -86,6 +86,8 @@
   /* Add a grey background color on mouse-over */
   /* Add a dark background color to the active button */ }
   #features .column {
+    float: left;
+    width: 33.33%;
     display: none; }
   #features .row:after {
     content: "";
@@ -281,6 +283,8 @@
     border: white solid 1px;
     height: 217px;
     margin-bottom: 3%; }
+  #contact #erreur {
+    color: red; }
   #contact .btn {
     font-family: "segoe bold";
     color: white;

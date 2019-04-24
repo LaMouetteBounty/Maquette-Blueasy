@@ -45,3 +45,76 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+// *************************FORMULAIRE**********************
+
+// document.getElementById("formulaire").addEventListener("submit", function (e) {
+
+//     e.preventDefault();
+//     console.log("declaration document - ligne 4")
+
+// var nom = document.querySelector("#nom");
+// function verifNom(){
+//     if(nom.value.lenght < 2 || nom.value.lenght > 30){
+//         console.log("ok");
+//     } else if (!formGroupExampleInput.value){
+//         console.log ("pas de valeur");
+//     } 
+//     else {
+//         console.log ("faux");
+//     }
+// }
+// }
+// );
+fname = document.querySelector('#fname')
+document.getElementById("formulaire").addEventListener("submit", function (e) {
+
+    e.preventDefault();
+    console.log("declaration document - ligne 4");
+    var erreur;
+    if (!fname.value) {
+        if (validFname != true) {
+            erreur = "Veuillez saisir votre nom";
+        console.log("if first name");
+        }
+        
+    }
+    if (validFname == true) {
+        e.preventDefault();
+        alert('Formulaire envoyé !');
+        console.log("message validation envoyé");
+    } 
+    if (validFname == false); {
+        e.preventDefault();
+        alert('Formulaire incomplet !');
+        console.log("message validation INCOMPLETE");
+        // break;
+    }
+});
+
+errorFname = document.querySelector('#errorfname');
+
+fname.addEventListener('blur', erreurFname)
+
+
+var validFname;
+function erreurFname() {
+    var letters = ("[A-Za-z'àáâãäåçèéêëìíîïðòóôõöùúûüýÿ -]");
+    console.log("variable lettre uniquement");
+    if (document.querySelector('#fname').value.match(letters)) {
+        errorFname.innerHTML = "";
+        event.target.style.borderColor = "#99ff66";
+        validFname = true;
+        return true;
+    } else if (document.querySelector('#fname') == "") {
+        // errorFname = "Veuillez saisir votre nom";
+        event.target.style.borderColor = "#ff0000";
+        return false;
+    } else {
+        // (alert("Veuillez saisir un nom valide"));
+        // errorFname = "Veuillez saisir un nom valide";
+        event.target.style.borderColor = "#ff0000";
+        return false;
+    }
+}
