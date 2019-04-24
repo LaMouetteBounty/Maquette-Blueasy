@@ -361,115 +361,243 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  #header {
+    .titreheader {
+      padding-top: 20%;
+    }
+  }
+    // ********SECTION PORTFOLIO
+      #features nav .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #header {
+    .titreheader {
+      padding-top: 30%;
+    }
+  }
+  // ********SECTION PORTFOLIO
+  #features {
+    height: 700px ;
+    nav .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    img {
+      height: 220px;
+    }
+  }
+  // *******TWITTER
+  #twitter {
+    height: 260px;
+  }
+// *********TESTIMONIALS
+#testimonials {
+  height: 320px;
 }
-
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #header {
+    .titreheader {
+      padding-top: 40%;
+    }
+  }
+  // ********SECTION SERVICE
+  #services {
+    height: 600px;
+  }
+  // ********SECTION PORTFOLIO
+  #features {
+    height: 1300px;
+    img {
+      padding-top: 5%;
+    }
+  }
+  // *******SECTION JUST DEFAULT
+  #justdefault {
+    height: 650px;
+  }
+  // ********SECTION TWITTER
+  #twitter {
+    height: 230px;
+  }
+  // ***********SECTION CONTACT
+  #contact {
+    textarea {
+      height: 100px;
+    }
+  }
 }
-
-
 
 // Small devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  #titreheader {
-    padding-top: 50%;
-    #txth1 {
-      font-size: 22px;
+  #header {
+    .titreheader {
+      padding-top: 50%;
+      #txth1 {
+        font-size: 35px;
+      }
+      span {
+        font-size: 35px;
+      }
     }
-    span {
-      font-size: 22px;
+  }
+  // **************SECTION SERVICES
+  #services {
+    padding-left: 10%;
+    height: 1150px;
+    .underline {
+      margin-bottom: 8%;
+    }
+    .contenue {
+      padding-top: 7%;
     }
   }
 
-}
+  // ***************SECTION PORTFOLIO
+  #features {
+    height: 2500px;
+    .imgportfolio {
+      display: flex;
+      justify-content: center;
 
+      img {
+        padding-top: 5%;
+      }
+    }
+  }
+  // ***************SECTION JUST DEFAULT
+  #justdefault {
+    padding-left: 10%;
+    height: 630px;
+    .video {
+      height: 50px;
+      margin: 0;
+      padding-right: 10%;
+      // display: flex;
+      // justify-content: center;
+    }
+  }
+  // body{
+  // .vp-center {
+  //     display: flex;
+  //   }
+  // }
+  // ****************SECTION TWITTER
+  #twitter {
+    padding-left: 10%;
+  }
+  // ***************SECTION WHO IS JOHN DOE
+  #who {
+    height: 480px;
+  }
+  // ***************SECTION TESTIMONIALS
+  #testimonials {
+    padding-left: 10%;
+    height: 420px;
+  }
+  // ****************SECTION CONTACT
+  #contact {
+    textarea {
+      height: 150px;
+    }
+  }
+  // ****************CONTACT
+  #footer {
+    height: 100px;
+    // a {
+    //   font-size: 20px;
+    // }
+  }
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media screen and (max-width: 575.98px) {
-#header {
-  #titreheader {
-    margin-top: 50%;
-    #txth1 {
-      font-size: 22px;
-    }
-    span {
-      font-size: 22px;
+  #header {
+    height: 500px;
+    .titreheader {
+      padding-top: 50%;
+      #txth1 {
+        font-size: 30px;
+      }
+      span {
+        font-size: 30px;
+      }
     }
   }
-}
   // **************SECTION SERVICES
-#services {
-  padding-left: 10%;
-  height: 1150px;
-  .underline {
-    margin-bottom: 10%;
-  }
-  .contenue {
-    padding-top: 10%;
-  }
-}
-
-// ***************SECTION PORTFOLIO
-#features {
-  height: 2500px;
-.imgportfolio {
-display: flex;
-justify-content: center;
-
-  img {
+  #services {
     padding-top: 5%;
-    
+    padding-left: 10%;
+    height: 1150px;
+    .underline {
+      margin-bottom: 10%;
+    }
+    .contenue {
+      padding-top: 10%;
+    }
   }
-}
-}
-// ***************SECTION JUST DEFAULT
-#justdefault {
-  padding-left: 10%;
-  height: 600px;
-  .video {
-    height: 50px;
-    margin: 0;
-    padding-right: 10%;
-    // display: flex;
-    // justify-content: center;
-}
-} 
-// body{
-// .vp-center {
-//     display: flex;
-//   }
-// }
-// ****************SECTION TWITTER
-#twitter {
-padding-left: 10%;
-}
-// ***************SECTION WHO IS JOHN DOE
-#who {
-  height: 480px ;
-}
-// ***************SECTION TESTIMONIALS
-#testimonials {
-  padding-left: 10%;
-  height: 420px;
-}
-// ****************SECTION CONTACT
-#contact {
-  textarea {
-    height: 150px;
+
+  // ***************SECTION PORTFOLIO
+  #features {
+    height: 2500px;
+    .imgportfolio {
+      display: flex;
+      justify-content: center;
+
+      img {
+        padding-top: 5%;
+      }
+    }
   }
-}
-// ****************CONTACT
-#footer {
-  height: 100px;
-  // a {
-  //   font-size: 20px;
+  // ***************SECTION JUST DEFAULT
+  #justdefault {
+    padding-left: 10%;
+    height: 600px;
+    .video {
+      height: 50px;
+      margin: 0;
+      padding-right: 10%;
+      // display: flex;
+      // justify-content: center;
+    }
+  }
+  // body{
+  // .vp-center {
+  //     display: flex;
+  //   }
   // }
+  // ****************SECTION TWITTER
+  #twitter {
+    padding-left: 10%;
+  }
+  // ***************SECTION WHO IS JOHN DOE
+  #who {
+    height: 480px;
+  }
+  // ***************SECTION TESTIMONIALS
+  #testimonials {
+    padding-left: 10%;
+    height: 420px;
+  }
+  // ****************SECTION CONTACT
+  #contact {
+    textarea {
+      height: 150px;
+    }
+  }
+  // ****************CONTACT
+  #footer {
+    height: 100px;
+    // a {
+    //   font-size: 20px;
+    // }
+  }
 }
-}
-
-
-

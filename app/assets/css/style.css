@@ -269,22 +269,111 @@
       text-decoration: none;
       color: white; }
 
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-  #titreheader {
-    padding-top: 50%; }
-    #titreheader #txth1 {
-      font-size: 22px; }
-    #titreheader span {
-      font-size: 22px; } }
-@media screen and (max-width: 575.98px) {
-  #header #titreheader {
-    margin-top: 50%; }
-    #header #titreheader #txth1 {
-      font-size: 22px; }
-    #header #titreheader span {
-      font-size: 22px; }
+@media (min-width: 1200px) {
+  #header .titreheader {
+    padding-top: 20%; }
+
+  #features nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .titreheader {
+    padding-top: 30%; }
+
+  #features {
+    height: 700px; }
+    #features nav .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+    #features img {
+      height: 220px; }
+
+  #twitter {
+    height: 260px; }
+
+  #testimonials {
+    height: 320px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #header .titreheader {
+    padding-top: 40%; }
 
   #services {
+    height: 600px; }
+
+  #features {
+    height: 1300px; }
+    #features img {
+      padding-top: 5%; }
+
+  #justdefault {
+    height: 650px; }
+
+  #twitter {
+    height: 230px; }
+
+  #contact textarea {
+    height: 100px; } }
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  #header .titreheader {
+    padding-top: 50%; }
+    #header .titreheader #txth1 {
+      font-size: 35px; }
+    #header .titreheader span {
+      font-size: 35px; }
+
+  #services {
+    padding-left: 10%;
+    height: 1150px; }
+    #services .underline {
+      margin-bottom: 8%; }
+    #services .contenue {
+      padding-top: 7%; }
+
+  #features {
+    height: 2500px; }
+    #features .imgportfolio {
+      display: flex;
+      justify-content: center; }
+      #features .imgportfolio img {
+        padding-top: 5%; }
+
+  #justdefault {
+    padding-left: 10%;
+    height: 630px; }
+    #justdefault .video {
+      height: 50px;
+      margin: 0;
+      padding-right: 10%; }
+
+  #twitter {
+    padding-left: 10%; }
+
+  #who {
+    height: 480px; }
+
+  #testimonials {
+    padding-left: 10%;
+    height: 420px; }
+
+  #contact textarea {
+    height: 150px; }
+
+  #footer {
+    height: 100px; } }
+@media screen and (max-width: 575.98px) {
+  #header {
+    height: 500px; }
+    #header .titreheader {
+      padding-top: 50%; }
+      #header .titreheader #txth1 {
+        font-size: 30px; }
+      #header .titreheader span {
+        font-size: 30px; }
+
+  #services {
+    padding-top: 5%;
     padding-left: 10%;
     height: 1150px; }
     #services .underline {
