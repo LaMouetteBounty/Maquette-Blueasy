@@ -112,67 +112,177 @@
   }
 }
 // *********************************SECTION 2 portfolio******************************
+// #features {
+//   height: 843px;
+//   padding-top: 0;
+//   nav {
+//     padding-bottom: 5%;
+//     .bordertitle {
+//       margin-top: 4%;
+//       display: flex;
+//       flex-direction: column;
+//     }
+//     .underline {
+//       border: #515f67 solid 0.5px;
+//       width: 44px;
+//     }
+//     .navbar-brand {
+//       font-family: "segoe light";
+//       color: #515f67;
+//       font-size: 30px;
+//     }
+//     .navbar-nav {
+//       padding-left: 60%;
+//       padding-top: 5%;
+//     }
+//     #myBtnContainer {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: flex-end;
+//     }
+//   }
+
+//   .overlay {
+//     padding-left: 15px;
+//     margin: 0 30px 0 0;
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     height: 100%;
+//     width: 100%;
+//     opacity: 0;
+//     transition: .5s ease;
+//     background-color: rgba($color: #353f47, $alpha: 0.9);
+//     cursor: pointer;
+//   }
+//   .textoverlay {
+//     color: white;
+//     font-size: 60px;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     -webkit-transform: translate(-50%, -50%);
+//     -ms-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%);
+//     text-align: center;
+//   }
+//   .imgportfolio:hover .overlay {
+//     opacity: 1;
+//   }
+//   // .imgportfolio:hover {
+//   //   // opacity: 0.3;
+//   //   color: #353f46;
+//   // }
+//   .photopart2 {
+//     padding-top: 1.5%;
+//   }
+// }
+
+// * {
+//   box-sizing: border-box;
+// }
+
 #features {
   height: 843px;
   padding-top: 0;
-  nav {
-    padding-bottom: 5%;
-    .bordertitle {
-      margin-top: 4%;
-      display: flex;
-      flex-direction: column;
-    }
-    .underline {
-      border: #515f67 solid 0.5px;
-      width: 44px;
-    }
-    .navbar-brand {
-      font-family: "segoe light";
-      color: #515f67;
-      font-size: 30px;
-    }
-    .navbar-nav {
-      padding-left: 60%;
-      padding-top: 5%;
-    }
-  }
 
-  .overlay {
-    padding-left: 15px;
-    margin: 0 30px 0 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba($color: #353f47, $alpha: 0.9);
-    cursor: pointer;
+.column {
+  display: none;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  border: solid #4bcaff 1px;
+  color: #515f67;
+  outline: none;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+ 
+   color: #515f67;
+   outline: none;
+}
+
+.bordertitle {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+
+}
+.underline {
+  border: #515f67 solid 0.5px;
+  width: 44px;
+}
+
+.navbar-brand {
+  color: #515f67;
+  font-size: 30px;
+}
+
+#myBtnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.overlay {
+  padding-left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(53, 63, 71, 0.9);
+  cursor: pointer;
+}
+.textoverlay {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.imgportfolio:hover .overlay {
+  opacity: 1;
+}
+.photopart2 {
+  padding-top: 1.5%;
+  .row {
+    padding: 0;
+    margin: 0;
   }
-  .textoverlay {
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .imgportfolio:hover .overlay {
-    opacity: 1;
-  }
-  // .imgportfolio:hover {
-  //   // opacity: 0.3;
-  //   color: #353f46;
-  // }
-  .photopart2 {
-    padding-top: 1.5%;
-  }
+}
 }
 // ******************************SECTION 3 just default section********************************
 #justdefault {

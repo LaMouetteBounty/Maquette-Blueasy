@@ -79,26 +79,48 @@
 
 #features {
   height: 843px;
-  padding-top: 0; }
-  #features nav {
-    padding-bottom: 5%; }
-    #features nav .bordertitle {
-      margin-top: 4%;
-      display: flex;
-      flex-direction: column; }
-    #features nav .underline {
-      border: #515f67 solid 0.5px;
-      width: 44px; }
-    #features nav .navbar-brand {
-      font-family: "segoe light";
-      color: #515f67;
-      font-size: 30px; }
-    #features nav .navbar-nav {
-      padding-left: 60%;
-      padding-top: 5%; }
+  padding-top: 0;
+  /* Clear floats after rows */
+  /* The "show" class is added to the filtered elements */
+  /* Style the buttons */
+  /* Add a grey background color on mouse-over */
+  /* Add a dark background color to the active button */ }
+  #features .column {
+    display: none; }
+  #features .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #features .show {
+    display: block; }
+  #features .btn {
+    border: none;
+    outline: none;
+    cursor: pointer; }
+  #features .btn:hover {
+    border: solid #4bcaff 1px;
+    color: #515f67;
+    outline: none; }
+  #features .btn.active {
+    color: #515f67;
+    outline: none; }
+  #features .bordertitle {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column; }
+  #features .underline {
+    border: #515f67 solid 0.5px;
+    width: 44px; }
+  #features .navbar-brand {
+    color: #515f67;
+    font-size: 30px; }
+  #features #myBtnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
   #features .overlay {
-    padding-left: 15px;
-    margin: 0 30px 0 0;
+    padding-left: 0;
+    margin: 0;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -124,6 +146,9 @@
     opacity: 1; }
   #features .photopart2 {
     padding-top: 1.5%; }
+    #features .photopart2 .row {
+      padding: 0;
+      margin: 0; }
 
 #justdefault {
   background-color: #515f67;
