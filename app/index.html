@@ -67,7 +67,7 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </nav>
             </div>
@@ -76,8 +76,8 @@
                     <span id="txth1">“I’M LOOKING FOR THE UNEXPECTED</span><br>
                     <span>I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE.” </span>
                 </div>
-            
-        </div>
+
+            </div>
     </header>
     <!-- ******************************************SECTION 1***SERVICES***************************************** -->
     <section id="services" class="container-fluid">
@@ -141,7 +141,8 @@
                             <a class="nav-link" href="#">ALL<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PANORAMAS</a>
+                            <!-- <a class="nav-link" href="#">PANORAMAS</a> -->
+                            <button class="btn" onclick="filterSelection('road')"> Nature</button>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">PORTRAITS</a>
@@ -156,39 +157,71 @@
                 </div>
             </nav>
         </div>
-        
+
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio" >
-                <img src="assets/img/portfolio/little/pf_01_road.jpg" alt="photo d'une route sur l'eau">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
+                    <div class="column road">
+                <a href="#"><img src="assets/img/portfolio/little/pf_01_road.jpg" alt="photo d'une route sur l'eau"></a>
+                <div class="overlay">
+                    <div class="textoverlay">+</div>
+                </div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                <img src="assets/img/portfolio/little/pf_02_pont.jpg" alt="photo d'un pont">
+                    <div class="column road">
+                <a href="#"> <img src="assets/img/portfolio/little/pf_02_pont.jpg" alt="photo d'un pont"></a>
+                <div class="overlay">
+                    <div class="textoverlay">+</div>
+                </div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                <img src="assets/img/portfolio/little/pf_03_mer.jpg" alt="photo de la mer">
+                <a href="#"> <img src="assets/img/portfolio/little/pf_03_mer.jpg" alt="photo de la mer"></a>
+                <div class="overlay">
+                    <div class="textoverlay">+</div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                <img src="assets/img/portfolio/little/pf_04_mer.jpg" alt="photo d'un lac">
+                <a href="#"> <img src="assets/img/portfolio/little/pf_04_mer.jpg" alt="photo d'un lac"></a>
+                <div class="overlay">
+                    <div class="textoverlay">+</div>
+                </div>
             </div>
+
         </div>
         <div class="photopart2">
             <div class="row">
 
                 <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                    <img src="assets/img/portfolio/little/pf_05_chalet.jpg" alt="photo d'un chalet">
+                    <a href="#"> <img src="assets/img/portfolio/little/pf_05_chalet.jpg" alt="photo d'un chalet"></a>
+                    <div class="overlay">
+                        <div class="textoverlay">+</div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                    <img src="assets/img/portfolio/little/pf_06_surf.jpg" alt="photo d'un surfer">
+                    <a href="#"> <img src="assets/img/portfolio/little/pf_06_surf.jpg" alt="photo d'un surfer"></a>
+                    <div class="overlay">
+                        <div class="textoverlay">+</div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                    <img src="assets/img/portfolio/little/pf_07_montagne.jpg" alt="photo d'une montagne'">
+                    <a href="#"> <img src="assets/img/portfolio/little/pf_07_montagne.jpg"
+                            alt="photo d'une montagne'"></a>
+                    <div class="overlay">
+                        <div class="textoverlay">+</div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 imgportfolio">
-                    <img src="assets/img/portfolio/little/pf_08_montagne.jpg" alt="photo d'une montagne">
+                    <a href="#"> <img src="assets/img/portfolio/little/pf_08_montagne.jpg"
+                            alt="photo d'une montagne"></a>
+                    <div class="overlay">
+                        <div class="textoverlay">+</div>
+                    </div>
                 </div>
             </div>
         </div>
-</div>
+        </div>
     </section>
     <!-- ************************************SECTION 3 just default section************************ -->
     <section id="justdefault" class="container-fluid">
@@ -218,7 +251,8 @@
                     </div>
                     <div class="col-sm-12 col-md-12 offset-1 col-lg-6 offset-1 col-xl-6 video ">
                         <!-- INTEGRATION VIDEO  -->
-                        <embed class="embed-responsive " src="https://player.vimeo.com/video/84488961" width="560" height="313">
+                        <embed class="embed-responsive " src="https://player.vimeo.com/video/84488961" width="560"
+                            height="313">
                         <!-- <img src="assets/img/video.jpg"> -->
                     </div>
                 </div>
@@ -361,7 +395,7 @@
             </div>
         </div>
         </div>
-        
+
     </footer>
     <!-- ****************************************************************************** -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

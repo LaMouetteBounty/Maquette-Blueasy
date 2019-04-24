@@ -136,6 +136,40 @@
       padding-top: 5%;
     }
   }
+
+  .overlay {
+    padding-left: 15px;
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba($color: #353f47, $alpha: 0.9);
+    cursor: pointer;
+  }
+  .textoverlay {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .imgportfolio:hover .overlay {
+    opacity: 1;
+  }
+  // .imgportfolio:hover {
+  //   // opacity: 0.3;
+  //   color: #353f46;
+  // }
   .photopart2 {
     padding-top: 1.5%;
   }
@@ -366,12 +400,12 @@
       padding-top: 20%;
     }
   }
-    // ********SECTION PORTFOLIO
-      #features nav .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-      }
+  // ********SECTION PORTFOLIO
+  #features nav .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -383,7 +417,7 @@
   }
   // ********SECTION PORTFOLIO
   #features {
-    height: 700px ;
+    height: 700px;
     nav .navbar-nav {
       display: flex;
       flex-direction: row;
@@ -397,10 +431,10 @@
   #twitter {
     height: 260px;
   }
-// *********TESTIMONIALS
-#testimonials {
-  height: 320px;
-}
+  // *********TESTIMONIALS
+  #testimonials {
+    height: 320px;
+  }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
